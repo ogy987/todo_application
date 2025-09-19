@@ -1,3 +1,7 @@
 /.venv/
 .idea
 bonus
+/files/
+/__pycache__/
+.DS_Store
+AWSCLIV2.pkg

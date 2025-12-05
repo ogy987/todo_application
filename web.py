@@ -7,6 +7,8 @@ def add_todo():
     new_todo = st.session_state["new_todo"] + "\n"
     todos.append(new_todo)
     functions.write_todos(todos)
+    # Clear the input box after adding
+    st.session_state['new_todo'] = ""
 
 
 st.title("Todo App")
